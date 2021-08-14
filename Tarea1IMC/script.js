@@ -17,7 +17,7 @@ boton.addEventListener('click', evento => {
     let peso = Number(document.getElementById('peso').value)
     let estatura = Number(document.getElementById('estatura').value)
     //console.log(sexo , edad ,peso, estatura)
-    calcularIMC(estatura, peso, sexo,edad);
+    
     
 })
 

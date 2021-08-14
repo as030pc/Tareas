@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+#navbar {
+    display:inline-flex ;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+
+#body {
+    font-size: 30px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#titulo {
+    color:white;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+#carousel img {
+    object-fit: cover;
+}
+
+@supports(object-fit: cover){
+    #carousel img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
