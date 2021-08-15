@@ -1,0 +1,29 @@
+
+
+#nav-profile-tab img {
+    width: 30px;
+    height: 30px;
+}
+
+#footer {
+    
+    display:flex;
+    left:0px;
+    bottom:0px;
+    width:100vh;
+    align-content:center;
+    text-align: center;
+    padding-top: 100px;
+ }
+
+ #footer ul li {
+     display: inline-block;
+     padding:10px;
+ }
+
+ #footer ul li a{
+
+     color:white;
+     background-color: black;
+    padding:10px;
+}
