@@ -1,0 +1,50 @@
+#body {
+    background-color: rgb(103, 185, 185);
+}
+#titulo {
+    color:beige;
+    text-align: center;
+    font-size: 50px;
+}
+
+#form {
+    font-size: 30px;
+    color:beige;
+    margin:10%;
+    border:80%;
+    align-content: center;
+}
+
+#label  {
+
+    font-size: 20px;
+}
+
+#label img {
+    width:50px;
+    height:50px;
+}
+
+#boton {
+    font-size: 20px;
+}
+
+#indiceMasa {
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    background-color: brown;
+    color: beige;
+}
+
+
+#medidor meter{
+    width: 200px;
+    height: 40px;
+    
+}
+
+#escala {
+    display:inline-flex;
+
+}
