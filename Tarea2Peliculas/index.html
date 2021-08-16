@@ -18,14 +18,12 @@
  
     <ul class="nav nav-pills mb-3 m-5" id="pills-tab" role="tablist" id = "links">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> Inicio </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"> Registro </button>
         </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-        </li>
+
       </ul>
     </div>
       <div class="tab-content" id="pills-tabContent">
@@ -71,7 +69,7 @@
                             <p class="card-text" > </p>
                             <img src="" alt="" class="img-thumbnail my-4"></img>
                             <br>
-                            <a href="#" class="btn btn-primary" id = "Descripcion">Descripción</a>
+                            <a href="" class="btn btn-primary" id = "Descripcion">Descripción</a>
                           </div>
                         </div>
                       </div>
@@ -87,8 +85,49 @@
 
 
 
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <h2 class="h4 m-4 text-primary text-center"> Registro </h2> 
+          <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationServer01" class="form-label"> Nombre  </label>
+              <input type="text" class="form-control nombre" id="validationServer01 nombre" required> <br>
+
+            </div> 
+            <div class="col-md-4">
+              <label for="validationServer02" class="form-label"> Apellido </label>
+              <input type="text" class="form-control" id="validationServer02"  required>
+
+            </div> <br>
+            <div class="col-md-4">
+              <label for="validationServerUsername" class="form-label"> Correo electronico</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                <input type="text" class="form-control email" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback">
+                  
+                </div>
+              </div>
+            </div> <br>
+            <div class="col-md-6">
+              <label for="validationServer03" class="form-label">Ciudad</label>
+              <input type="text" class="form-control ciudad " id="validationServer03" aria-describedby="validationServer03Feedback" required> <br>
+
+            </div> <br>
+            <div class="col-md-3">
+              <label for="validationServer04" class="form-label"> Genero </label>
+              <select class="form-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                <option> Masculino </option>
+                <option> Femenino </option>
+                <option> Prefiero no responder </option>
+              </select>
+            </div> <br>
+            
+              <div class="">
+                <button id = "boton"class="btn btn-primary content-center " type="submit" onclick = suscripcion()> Enviar </button>
+              </div>
+            </form>
+        </div>
+        
       </div>
 
 
