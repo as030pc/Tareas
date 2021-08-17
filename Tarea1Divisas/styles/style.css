@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 239, 245);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    padding: 0px;
+    width: 600px;
+    height: 250px;
+    background-color: rgba(224, 221, 221, 0.979);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.valor_ingresado .casilla {
+    width: 400px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+
+}
+.button{
+    background-color: rgb(166, 231, 67);
+    width: 160px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.casilla1 {
+    width: 160px;
+    border-radius: 5px;
+   
+}
+.casilla2 {
+    width: 160px;
+    border-radius: 5px;
+   
+
+}
